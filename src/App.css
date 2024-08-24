@@ -1,0 +1,94 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #ffffff, #f0f0f0);
+  margin: 0 auto; 
+  box-sizing: border-box;
+}
+
+
+.app.tema-claro {
+  background: linear-gradient(135deg, #ff9100, #ffa600);
+  color: #000;
+}
+
+
+.app.tema-oscuro {
+  background: linear-gradient(135deg, #010042, #2c0021);
+  color: #fff;
+}
+
+
+.tablero {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 5px;
+  margin: 20px;
+}
+
+
+.cuadrado {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  background-color: #99a4d6;
+  border: 1px solid #333;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+.cuadrado:hover {
+  background-color: #d0d0d0;
+}
+
+
+.indicador-turno {
+  margin: 10px;
+  font-size: 1.5rem;
+}
+
+
+.historial {
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
