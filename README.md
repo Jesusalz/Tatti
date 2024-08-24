@@ -1,4 +1,4 @@
-Tateti 
+Tatti 
 Este es un juego de Tateti desarrollado con React y JavaScript, que permite jugar en dos modos: contra otro jugador o contra la computadora. La interfaz está centrada y optimizada tanto para dispositivos móviles como para pantallas más grandes, con la posibilidad de alternar entre un tema claro y un tema oscuro.
 
 Características
